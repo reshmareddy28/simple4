@@ -2,7 +2,6 @@
 int main()
 {
 int s,m,s1=0,s2=0,sum;
-printf("Enter the limit:");
 scanf("%d",&s);
 for(m=1;m<=s;m++)
 {
@@ -16,6 +15,6 @@ s2=s2+(m*m);
 }
 }
 sum=s1+s2;
-printf("Answer is:%d",sum);
+printf(sum);
 return 0;
 }
